@@ -8,8 +8,8 @@ Compile Steps:
 gcc q2.c
 
 Command(s) to run:
-./a.out < test1.txt
-./a.out < text2.txt
+./a.out < question2/test1.txt
+./a.out < question2/text2.txt
 
 Output:
    4 boo
