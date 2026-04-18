@@ -11,6 +11,7 @@ Have your main function accept the following inputs: number of points in array1,
 Compile Steps:
     ./a.out
 Output:
+
     input: 
 
         3
