@@ -3,31 +3,67 @@
 Modify the keyword count program that we wrote in class to handle all of the keywords in C. For example, the keyword, int, was not being counted.
 
 Compile Steps: 
-    gcc test1.c
+    gcc q1.c
 
 Command(s) to run the program:
+
+    ./a.out < test1.c
+
     ./a.out < test2.c
 
 Output:
 
-    1 break
+    ./a.out < test1.c:
 
-  14 char
+        1 const
 
-   4 else
+        1 continue
 
-   3 for
+        1 default
 
-  10 if
+        3 else
 
-  12 int
+        3 for
+        
+        9 if
 
-   7 return
+        16 int
+        
+        6 return
 
-   1 sizeof
+        2 sizeof
 
-  14 struct
+        9 struct
 
-   8 void
-   
-   2 while
+        1 unsigned
+
+        7 void
+
+        1 volatile
+
+        4 while
+
+    ./a.out < test2.c:
+
+        1 break
+
+        14 char
+
+        4 else
+
+        3 for
+
+        10 if
+
+        12 int
+
+        7 return
+
+        1 sizeof
+
+        14 struct
+
+        8 void
+        
+        2 while
+                
